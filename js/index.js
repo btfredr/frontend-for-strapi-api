@@ -17,8 +17,8 @@ createMenu();
 
         json.forEach(function (product) {
             container.innerHTML += `<a class="product" href="detail.html?id=${product.id}">
-                                        <h4>${product.name}</h4>
-                                        <p>Price: ${product.price}</p>
+                                        <h4>${product.Name}</h4>
+                                        <p>Price: ${product.Price}</p>
                                     </a>`;
         });
     } catch (error) {

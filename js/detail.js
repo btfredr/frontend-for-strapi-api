@@ -24,8 +24,8 @@ console.log(productUrl);
 
         const container = document.querySelector(".detail-container");
 
-        container.innerHTML = `<h1>${details.name}</h1>
-                            <p>${details.description}</p>`;
+        container.innerHTML = `<h1>${details.Name}</h1>
+                            <p>${details.Description}</p>`;
 
         console.log(details);
     } catch (error) {
